@@ -13,11 +13,13 @@ body{
     position: relative; 
     padding-bottom: 80px; /* set this to the height of your footer */
 }
+
+
 /*Header Section */
 header{
+    padding: 20px 0 0 0; 
     background-image: url(images/paper_fibers_@2X.png);
     background-position: top;
-    height: 120px;
     width: 100%;
     
 }
@@ -26,29 +28,40 @@ h1{
 }
 nav ul {
     text-align: right;
+   
 }
 nav ul li{
+    bottom: 0;
     list-style: none;
     display: inline-block;
-    background-color: rgb(46,139,87);
-    padding: 0 10px;
-    border-radius: 8px;  
+    /*background-color: rgb(46,139,87); */
+    border-bottom: 3px solid rgb(46,139,87);
+    padding: 0 5px;
+    border-radius: 8px; 
+
 }
  
 nav ul li a{
     text-decoration: none;
     font-size: 20px;
-    color: #fff;
+    color: #000;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     font-weight: 600;
-    letter-spacing: 4px;
-    
-    
-    
+    letter-spacing: 4px; 
 }
 
+nav ul li a:hover{
+    color: #fff; 
+    background-color: rgb(46,139,87);
+    padding-left: 5px; 
+    padding-right: 5px;
+    border-radius: 8px; 
+}
 
+nav ul li:hover{
+    border-bottom: none;
+}
 /* mission Section */
 .mission{
     position: relative;
@@ -59,6 +72,7 @@ nav ul li a{
     
 }
 .newspaper{
+    background-color:#A9BA9D;
     column-count:3; 
     column-gap: 40px; 
     column-rule-style: solid; 
