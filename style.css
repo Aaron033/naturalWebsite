@@ -81,4 +81,13 @@ footer{
 footer ul, li a {
     list-style: none;
     text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+footer ul{
+    text-align: right; 
+}
+footer ul li{
+    display: inline-block;
 }
