@@ -1,4 +1,6 @@
-
+:root{
+    --fontFamily: 'Signika', sans-serif;
+}
 
 
 * {
@@ -26,10 +28,18 @@ header{
     width: 100%;
     
 }
+hr {
+    
+    border: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(46, 139, 87, 0.75), rgba(0, 0, 0, 0));
+}
 h1{
+    font-family: var(--fontFamily);
     color: rgb(46,139,87);
 }
 nav ul {
+    padding-top: 5px;
     padding-right: 20px;
     text-align: right;
    
@@ -50,7 +60,7 @@ nav ul li a{
     text-decoration: none;
     font-size: 20px;
     color: #000;
-    font-family: 'Oswald', sans-serif;
+font-family: var(--fontFamily);
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 4px; 
@@ -66,6 +76,10 @@ nav ul li a:hover{
 
 nav ul li:hover{
     border-bottom: none;
+}
+
+section {
+    font-family: var(--fontFamily);
 }
 
 /*meida_text */
@@ -97,18 +111,28 @@ aside.media_Tran div {
 /* mission Section */
 .mission{
     position: relative;
-    background-color: #D0F0C0; 
+    background-color: #fff; 
     background-image: url();
     background-repeat: no-repeat;
     background-position: center;
     
 }
+
 .newspaper{
-    background-color:#D0F0C0;
+    background-color:#fff;
+    
+}
+
+.new{
     column-count:3; 
     column-gap: 40px; 
     column-rule-style: solid; 
     column-rule-width: 1px; 
+}
+
+/* General code for h2 */
+h2 {
+    text-align: center; 
 }
 
 
