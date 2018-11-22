@@ -17,7 +17,7 @@ body{
 
 /*Header Section */
 header{
-    padding: 20px 0 0 0; 
+    padding: 20px 0 0 10px; 
     background-image: url(images/paper_fibers_@2X.png);
     background-position: top;
     width: 100%;
@@ -27,6 +27,7 @@ h1{
     color: rgb(46,139,87);
 }
 nav ul {
+    padding-right: 20px;
     text-align: right;
    
 }
@@ -42,6 +43,7 @@ nav ul li{
 }
  
 nav ul li a{
+ 
     text-decoration: none;
     font-size: 20px;
     color: #000;
@@ -62,6 +64,18 @@ nav ul li a:hover{
 nav ul li:hover{
     border-bottom: none;
 }
+
+/*meida_text */
+
+aside.media_text>div:first-of-type{
+    padding: 40px;
+    height: 100%;
+    width:100%;
+    
+}
+
+
+
 /* mission Section */
 .mission{
     position: relative;
