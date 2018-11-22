@@ -67,15 +67,25 @@ nav ul li:hover{
 
 /*meida_text */
 
-aside.media_text>div:first-of-type{
+aside.media_text div:first-of-type{
     padding: 40px;
     height: 100%;
     width:100%;
-    
+}
+
+aside.media_text div{
+    background-color: #8F9779;
 }
 
 
+/*media_Tran */
+aside.media_Tran div p{
+    color:  #4d4d4d;
+}
 
+aside.media_Tran div {
+    background-color: #8F9779;
+}
 /* mission Section */
 .mission{
     position: relative;
