@@ -79,13 +79,18 @@ aside.media_text div{
 
 
 /*media_Tran */
+
 aside.media_Tran div p{
     color:  #4d4d4d;
+  
 }
 
 aside.media_Tran div {
     background-color: #8F9779;
+   
+    
 }
+
 /* mission Section */
 .mission{
     position: relative;
@@ -125,7 +130,4 @@ footer ul, li a {
 
 footer ul{
     text-align: right; 
-}
-footer ul li{
-    display: inline-block;
 }
