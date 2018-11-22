@@ -1,4 +1,4 @@
-:root{
+:root {
     --fontFamily: 'Signika', sans-serif;
 }
 
@@ -8,73 +8,81 @@
     padding: 0;
 }
 
-html, body{
+html,
+body {
     height: 100%;
-    position: relative; /*  Always do this */
+    position: relative;
+    /*  Always do this */
 }
 
-body{
-    min-height: cal(100% - 80px); /* 100% of the height minus the footer's height */
-    position: relative; 
-    padding-bottom: 80px; /* set this to the height of your footer */
+body {
+    min-height: cal(100% - 80px);
+    /* 100% of the height minus the footer's height */
+    position: relative;
+    padding-bottom: 80px;
+    /* set this to the height of your footer */
 }
 
 
 /*Header Section */
-header{
-    padding: 20px 0 0 10px; 
+header {
+    padding: 20px 0 0 10px;
     background-image: url(images/paper_fibers_@2X.png);
     background-position: top;
     width: 100%;
-    
+
 }
+
 hr {
-    
+
     border: 0;
     height: 4px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(46, 139, 87, 0.75), rgba(0, 0, 0, 0));
 }
-h1{
+
+h1 {
     font-family: var(--fontFamily);
-    color: rgb(46,139,87);
+    color: rgb(46, 139, 87);
 }
+
 nav ul {
     padding-top: 5px;
     padding-right: 20px;
     text-align: right;
-   
+
 }
-nav ul li{
+
+nav ul li {
     bottom: 0;
     list-style: none;
     display: inline-block;
     /*background-color: rgb(46,139,87); */
-    border-bottom: 3px solid rgb(46,139,87);
+    border-bottom: 3px solid rgb(46, 139, 87);
     padding: 0 5px;
-    border-radius: 8px; 
+    border-radius: 8px;
 
 }
- 
-nav ul li a{
- 
+
+nav ul li a {
+
     text-decoration: none;
     font-size: 20px;
     color: #000;
-font-family: var(--fontFamily);
+    font-family: var(--fontFamily);
     text-transform: uppercase;
     font-weight: 600;
-    letter-spacing: 4px; 
+    letter-spacing: 4px;
 }
 
-nav ul li a:hover{
-    color: #fff; 
-    background-color: rgb(46,139,87);
-    padding-left: 5px; 
+nav ul li a:hover {
+    color: #fff;
+    background-color: rgb(46, 139, 87);
+    padding-left: 5px;
     padding-right: 5px;
-    border-radius: 8px; 
+    border-radius: 8px;
 }
 
-nav ul li:hover{
+nav ul li:hover {
     border-bottom: none;
 }
 
@@ -84,77 +92,76 @@ section {
 
 /*meida_text */
 
-aside.media_text div:first-of-type{
+aside.media_text div:first-of-type {
     padding: 40px;
     height: 100%;
-    width:100%;
+    width: 100%;
 }
 
-aside.media_text div{
+aside.media_text div {
     background-color: #8F9779;
 }
 
 
 /*media_Tran */
 
-aside.media_Tran div p{
-    color:  #4d4d4d;
-  
+aside.media_Tran div p {
+    color: #4d4d4d;
+
 }
 
 aside.media_Tran div {
     background-color: #8F9779;
-   
-    
+
+
 }
 
 /* mission Section */
-.mission{
+.mission {
     position: relative;
-    background-color: #fff; 
+    background-color: #fff;
     background-image: url();
     background-repeat: no-repeat;
     background-position: center;
-    
+
 }
 
-.newspaper{
-    background-color:#fff;
-    
+.newspaper {
+    background-color: #fff;
+
 }
 
-.new{
-    column-count:3; 
-    column-gap: 40px; 
-    column-rule-style: solid; 
-    column-rule-width: 1px; 
+.new {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
 }
 
 /* General code for h2 */
 h2 {
-    text-align: center; 
+    text-align: center;
 }
 
 
 /*Footer Section */
 
-footer{
-   left: 0; 
-    right: 0; 
+footer {
+    left: 0;
+    right: 0;
     bottom: 0;
     margin: 0 0;
     background-image: url(images/paper_fibers_@2X.png);
-    
-    
 }
 
-footer ul, li a {
+footer ul,
+li a {
     list-style: none;
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
 }
 
-footer ul{
-    text-align: right; 
+footer ul {
+    text-align: right;
 }
