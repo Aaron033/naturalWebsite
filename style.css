@@ -115,7 +115,7 @@ aside.media_Tran div {
     background-color: #8F9779;
 }
 
-/* aisde genral code */
+/* aisde genral code*/
 .medi{
     background-image: url(images/paper_fibers_@2X.png);
     padding: 40px;
@@ -123,6 +123,9 @@ aside.media_Tran div {
     width: 30%;
     float: right;
 }
+
+
+
 
 /* mission Section */
 .mission {
@@ -151,10 +154,20 @@ h2 {
     text-align: center;
 }
 
-/*aside genral text */
+/*aside general text */
 aside {
     box-sizing: border-box;
 }
+
+/* btn general code*/
+.btn {
+    width: 50%; 
+    padding: 10px 10px; 
+    border-radius: 8px; 
+  text-align: center;
+  
+}
+
 
 /*Footer Section */
 
