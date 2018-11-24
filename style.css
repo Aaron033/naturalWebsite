@@ -116,6 +116,10 @@ aside.media_Tran div {
 }
 
 /* aisde genral code*/
+
+.out{
+    padding: 10px 10px 10px 10px; 
+}
 .medi{
     background-image: url(images/paper_fibers_@2X.png);
     padding: 40px;
@@ -165,7 +169,7 @@ aside {
     padding: 10px 10px; 
     border-radius: 8px; 
     text-align: center;
-   color: darkgreen;
+    text-decoration: none;
     
   
 }
