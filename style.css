@@ -88,6 +88,8 @@ nav ul li:hover {
 
 section {
     font-family: var(--fontFamily);
+    font-size:  17px; 
+    padding: 15px 15px 15px 15px;
 }
 
 /*meida_text */
