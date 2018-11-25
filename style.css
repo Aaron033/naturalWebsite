@@ -128,6 +128,7 @@ aside.media_Tran div {
     height: 100%;
     width: 30%;
     float: right;
+    border-radius: 8px; 
 }
 
 
