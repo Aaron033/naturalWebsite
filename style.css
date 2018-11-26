@@ -194,11 +194,8 @@ aside {
 /*Footer Section */
 
 footer {
-    display: grid; 
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: 0 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     background-image: url(images/paper_fibers_@2X.png);
 }
 
@@ -211,7 +208,7 @@ li a {
 }
 
 footer ul {
-    text-align: right;
+
 }
 
 
