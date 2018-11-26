@@ -101,19 +101,16 @@ section {
 }
 */
 
-aside.media_text div {
+aside div {
     background-color: #8F9779;
 }
 
 
 /*media_Tran */
 
-aside.media_Tran div p {
-    color: #4d4d4d;
 
-}
 
-aside.media_Tran div {
+aside div {
     background-color: #8F9779;
 }
 
@@ -186,6 +183,7 @@ aside {
     border-radius: 8px; 
     text-align: center;
     text-decoration: none;
+    background-color:antiquewhite;
     
   
 }
@@ -195,8 +193,10 @@ aside {
 
 footer {
     display: grid;
+    bottom: 0;
     grid-template-columns: auto auto auto auto;
     background-image: url(images/paper_fibers_@2X.png);
+
 }
 
 footer a{
@@ -204,5 +204,6 @@ footer a{
     font-size: 20px;
     font-family: var(--fontFamily);
     color: #000;
+    padding: 30px;
 }
 
