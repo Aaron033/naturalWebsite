@@ -134,7 +134,7 @@ aside.media_Tran div {
  /* images in aside div's tag created */
 
 .im{
-    box-shadow: 10px 10px;
+    box-shadow: 10px 10px 5px #181818;
     border-radius: 4px;
 }
 
@@ -194,6 +194,7 @@ aside {
 /*Footer Section */
 
 footer {
+    display: grid; 
     left: 0;
     right: 0;
     bottom: 0;
