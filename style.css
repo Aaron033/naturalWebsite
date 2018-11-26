@@ -134,7 +134,8 @@ aside.media_Tran div {
  /* images in aside div's tag created */
 
 .im{
-    
+    box-shadow: 10px 10px;
+    border-radius: 4px;
 }
 
 /*  h3: general Code */
