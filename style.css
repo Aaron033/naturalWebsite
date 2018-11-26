@@ -199,16 +199,10 @@ footer {
     background-image: url(images/paper_fibers_@2X.png);
 }
 
-footer ul,
-li a {
-    list-style: none;
+footer a{
     text-decoration: none;
-    font-family: 'Oswald', sans-serif;
     font-size: 20px;
+    font-family: var(--fontFamily);
+    color: #000;
 }
-
-footer ul {
-
-}
-
 
