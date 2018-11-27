@@ -183,11 +183,17 @@ aside {
     border-radius: 8px; 
     text-align: center;
     text-decoration: none;
-    background-color:antiquewhite;
+    background-color: #99FF99;
     
   
 }
 
+aside a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
 
 /*Footer Section */
 
