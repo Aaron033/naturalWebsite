@@ -177,9 +177,13 @@ aside {
     box-sizing: border-box;
 }
 
+aside .btn a {
+    text-align: center;
+}
 /* btn general code*/
 .btn {
-    width: 50%; 
+    
+    width: 100px; 
     padding: 10px 10px; 
     border-radius: 8px; 
     text-align: center;
