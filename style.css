@@ -58,9 +58,8 @@ nav ul li {
     list-style: none;
     display: inline-block;
     /*background-color: rgb(46,139,87); */
-    border-bottom: 3px solid rgb(46, 139, 87);
     padding: 0 5px;
-    border-radius: 8px;
+
 
 }
 
