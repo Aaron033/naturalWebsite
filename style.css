@@ -12,7 +12,7 @@ html,
 body {
     height: 100%;
     position: relative;
-    background-color: #8F9779;
+    background-color: #fff;
     /*  Always do this */
 }
 
@@ -182,31 +182,39 @@ aside .btn a {
 }
 /* btn general code*/
 .btn {
-    
+    cursor: pointer;
+    margin-top: 20px
     width: 100px; 
     padding: 10px 10px; 
     border-radius: 8px; 
+    border: 2px solid #ddd;
     text-align: center;
     text-decoration: none;
     background-color: #FF7733;
+    font-family: var(--fontFamily);
     
   
 }
 
+.btn:hover{
+    background-color:red; 
+}
 aside a{
     color: #fff;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
 
 }
+
+
 
 /*Footer Section */
 
 footer {
-    display: grid;
+    position: relative;
     bottom: 0;
     grid-template-columns: auto auto auto auto;
-    background-image: url(images/paper_fibers_@2X.png);
+    background-color:#8F9779;
 
 }
 
