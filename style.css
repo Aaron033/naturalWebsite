@@ -12,6 +12,7 @@ html,
 body {
     height: 100%;
     position: relative;
+    background-color: #8F9779;
     /*  Always do this */
 }
 
@@ -87,6 +88,7 @@ nav ul li:hover {
 }
 
 section {
+    margin: 15px; 
     font-family: var(--fontFamily);
     font-size:  17px; 
     padding: 15px 15px 15px 15px;
