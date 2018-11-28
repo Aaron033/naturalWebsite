@@ -93,6 +93,7 @@ section {
     padding: 15px 15px 15px 15px;
 }
 
+
 /*meida_text */
 
 /* aside.media_text div:first-of-type {
@@ -211,8 +212,21 @@ aside a {
 /* side-Column*/
 .side{
     display: flex;
+    padding: 20px 30px;
+    font-family: var(--fontFamily);
+}
+.side1{
+    order: 2;
 }
 
+.side2{
+    order:1;
+}
+
+.side3{
+    order:3;
+    
+}
 /*Footer Section */
 
 footer {
