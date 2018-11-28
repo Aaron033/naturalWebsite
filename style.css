@@ -209,7 +209,9 @@ aside a {
 }
 
 /* side-Column*/
-
+.side{
+    display: flex;
+}
 
 /*Footer Section */
 
