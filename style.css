@@ -5,7 +5,7 @@
 
 * {
     margin: 0;
-    padding: 0;
+    
 }
 
 html,
@@ -211,9 +211,10 @@ aside a {
 
 /* side-Column*/
 .side{
-    display: flex;
+   
     padding: 20px 30px;
     font-family: var(--fontFamily);
+    
 }
 .side1{
     order: 2;
@@ -226,6 +227,12 @@ aside a {
 .side3{
     order:3;
     
+}
+@media(min-width: 900px){
+    
+    .side{
+           display: flex;
+    }
 }
 /*Footer Section */
 
