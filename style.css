@@ -87,9 +87,9 @@ nav ul li:hover {
 }
 
 section {
-    margin: 15px; 
+    margin: 15px;
     font-family: var(--fontFamily);
-    font-size:  17px; 
+    font-size: 17px;
     padding: 15px 15px 15px 15px;
 }
 
@@ -117,33 +117,34 @@ aside div {
 
 /* aisde genral code*/
 
-.out{
-    padding: 20px 20px 20px 20px; 
+.out {
+    padding: 20px 20px 20px 20px;
 }
-.medi{
+
+.medi {
     background-image: url(images/paper_fibers_@2X.png);
     padding: 40px;
     height: 100%;
     width: 30%;
     float: right;
-    border-radius: 8px; 
+    border-radius: 8px;
     text-align: center;
 }
 
- /* images in aside div's tag created */
+/* images in aside div's tag created */
 
-.im{
+.im {
     box-shadow: 10px 10px 5px #181818;
     border-radius: 4px;
 }
 
 /*  h3: general Code */
 
-h3{
-  color: #000;
+h3 {
+    color: #000;
     font-size: 26px;
     font-weight: bold;
-    
+
 }
 
 /* mission Section */
@@ -180,32 +181,34 @@ aside {
 aside .btn a {
     text-align: center;
 }
+
 /* btn general code*/
 .btn {
     cursor: pointer;
-    margin-top: 20px
-    width: 100px; 
-    padding: 10px 10px; 
-    border-radius: 8px; 
+    margin-top: 20px width: 100px;
+    padding: 10px 10px;
+    border-radius: 8px;
     border: 2px solid #ddd;
     text-align: center;
     text-decoration: none;
     background-color: #FF7733;
     font-family: var(--fontFamily);
-    
-  
+
+
 }
 
-.btn:hover{
-    background-color:red; 
+.btn:hover {
+    background-color: red;
 }
-aside a{
+
+aside a {
     color: #fff;
     text-decoration: none;
     font-weight: 500;
 
 }
 
+/* side-Column*/
 
 
 /*Footer Section */
@@ -214,11 +217,11 @@ footer {
     position: relative;
     bottom: 0;
     grid-template-columns: auto auto auto auto;
-    background-color:#8F9779;
+    background-color: #8F9779;
 
 }
 
-footer a{
+footer a {
     text-decoration: none;
     font-size: 20px;
     font-family: var(--fontFamily);
@@ -226,4 +229,3 @@ footer a{
     padding: 30px;
     display: inline-block;
 }
-
