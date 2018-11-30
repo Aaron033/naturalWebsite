@@ -260,6 +260,7 @@ footer {
     bottom: 0;
     grid-template-columns: auto auto auto auto;
     background-color: #8F9779;
+    margin: auto;
     
 
 }
