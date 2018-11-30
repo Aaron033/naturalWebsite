@@ -211,6 +211,9 @@ aside a {
 }
 
 /* side-Column*/
+.side1, .side2, .side3{
+        margin: 10px;
+    }
 .side{
    
     padding: 20px 30px;
@@ -252,6 +255,11 @@ aside a {
     
     .side{
            display: flex;
+    
+    }
+    
+    .side1, .side2, .side3{
+        margin: 10px;
     }
 }
 /*Footer Section */
