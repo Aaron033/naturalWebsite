@@ -8,19 +8,12 @@
     
 }
 
-html,
-body {
-
-    position: relative;
-    background-color: #fff;
-    /*  Always do this */
-}
 
 body {
-    min-height: cal(100% - 80px);
+    
     /* 100% of the height minus the footer's height */
     position: relative;
-    padding-bottom: 80px;
+    
     /* set this to the height of your footer */
 }
 
