@@ -218,23 +218,31 @@ aside a {
 }
 .side1{
     order: 2;
-    background-color:#4CDB8F;
+    background-color:#ddd;
     padding-left:5px; 
     padding-right: 5px;
 }
 
 .side2{
     order:1;
-    background-color: #AFEEEE;
+    background-color: #ddd ;
     padding-left: 5px;
+    text-align: center;
 }
 
 .side3{
     order:3;
     background-color: #F0E68C;
     padding-left: 5px;
+    text-align: center;
+    
     
 }
+
+.side > img{
+    padding-top: 10px;
+}
+
 @media(min-width: 900px){
     
     .side{
