@@ -10,7 +10,7 @@
 
 html,
 body {
-    height: 100%;
+
     position: relative;
     background-color: #fff;
     /*  Always do this */
@@ -103,9 +103,7 @@ section {
 }
 */
 
-aside div {
-    background-color: #8F9779;
-}
+
 
 
 /*media_Tran */
@@ -279,5 +277,5 @@ footer li{
 }
 
 .footerCont p{
-    align-content: center;
+
 }
