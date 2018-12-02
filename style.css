@@ -20,7 +20,7 @@ body {
 /*Hamburger menu */
 
 .menu-toggle {
-  background: grey;
+    background: grey;
     padding: 1em; 
     position: absolute;
     top:.75em;

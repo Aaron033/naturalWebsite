@@ -1,3 +1,3 @@
 $('.menu-toggle').click(function(){
-    $('nav').toggleClass('nav--open');
+    $('.nav').toggleClass('nav--open');
 })
