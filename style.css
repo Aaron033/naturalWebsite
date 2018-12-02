@@ -19,16 +19,8 @@ body {
 
 /*Hamburger menu */
 
-label{   
-    margin: 0 40px 0 0;
-    font-size: 28px;
-    line-height: 70px;
-    display: none;
-}
 
-#toggle {
-    display: none;
-}
+
 
 @media only screen and (max-width:1000px){
     label{
@@ -339,4 +331,14 @@ footer li{
     padding: 50px 0; 
     display: flex; 
     flex-wrap: wrap;
+}
+
+.footer-main .footer-column{
+    width: calc(100% /3); 
+    text-align: justify;
+}
+
+.footer-main .footer-column:nth-child(2){
+    padding: 0 20px;
+    
 }
