@@ -113,6 +113,13 @@ h1 {
     color: rgb(46, 139, 87);
 }
 
+nav {
+    overflow: hidden;
+}
+
+nav--open{
+    height: auto;
+}
 nav ul {
     padding-top: 5px;
     padding-right: 20px;
